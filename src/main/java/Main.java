@@ -158,9 +158,7 @@ public final class Main {
             for (Organization org : chosenOrgs) {
                 System.out.println("Name: " + org.getName() + " inn: " + org.getInn() + " payment account: " + org.getPayment_account());
             }
-
-            //За каждый день в разрезе номенклатур рассчитать количество и
-            // сумму полученного товара в указанном периоде, посчитать итоги за период
+            
             calendar.set(2020, Calendar.SEPTEMBER, 1, 1, 0, 0);
             date = calendar.getTimeInMillis();
             Date date1 = new Date(date);
